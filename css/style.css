@@ -3,8 +3,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-ul {
+h1,
+ul,
+p {
   margin: 0;
+}
+
+ul {
   padding: 0;
   list-style: none;
 }
