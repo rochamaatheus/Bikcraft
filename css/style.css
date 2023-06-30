@@ -25,6 +25,8 @@ a {
 
 .header {
   display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
   justify-content: space-between;
   align-items: center;
   padding: 1.25rem;
