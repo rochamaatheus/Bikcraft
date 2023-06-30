@@ -96,3 +96,8 @@ img {
     font-size: 0.875rem;
   }
 }
+
+.introducao-bg {
+  background: #000;
+  color: #fff;
+}
