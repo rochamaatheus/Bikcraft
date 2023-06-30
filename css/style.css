@@ -121,6 +121,10 @@ img {
   line-height: 1.125;
 }
 
+.introducao h1 span {
+  color: #ffbb00;
+}
+
 .introducao p {
   margin-bottom: 1rem;
   font-size: 1.5rem;
