@@ -27,6 +27,8 @@ img {
 .container {
   max-width: 75rem;
   margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 1.25rem;
 }
 
 .header-bg {
@@ -100,4 +102,28 @@ img {
 .introducao-bg {
   background: #000;
   color: #fff;
+}
+
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 2.5rem;
+}
+
+.introducao-conteudo {
+  align-self: flex-end;
+  padding-bottom: 5rem;
+}
+
+.introducao h1 {
+  margin-bottom: 1rem;
+  font-size: 4rem;
+  line-height: 1.125;
+}
+
+.introducao p {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #b2b2b2;
 }
