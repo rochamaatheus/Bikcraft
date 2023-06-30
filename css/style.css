@@ -53,6 +53,9 @@ a {
     padding: 0.75rem 1rem;
     border-radius: 4px;
   }
+  .header-menu a:hover {
+    background-color: #2e2e2e;
+  }
 }
 
 @media (max-width: 37.5rem) {
