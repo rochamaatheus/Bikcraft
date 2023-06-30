@@ -29,3 +29,12 @@ a {
   align-items: center;
   padding: 20px;
 }
+
+.header-menu {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.header-menu a {
+  padding: 1rem 0;
+}
