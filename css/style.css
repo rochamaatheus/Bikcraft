@@ -144,3 +144,7 @@ img {
   line-height: 1.33;
   font-weight: bold;
 }
+
+.introducao a:hover {
+  background: linear-gradient(#ffb60d, #e59317);
+}
