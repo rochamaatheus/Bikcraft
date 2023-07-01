@@ -60,3 +60,13 @@
     gap: 1.25rem;
   }
 }
+
+@media (max-width: 25rem) {
+  .bicicletas-lista ul {
+    gap: 1rem;
+    padding-bottom: 1rem;
+  }
+  .bicicletas-lista li {
+    min-width: 14rem;
+  }
+}
