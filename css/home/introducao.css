@@ -1,0 +1,50 @@
+.introducao-bg {
+  box-shadow: inset 0 -7.5rem var(--cor-0);
+}
+
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 2.5rem;
+}
+
+.introducao-conteudo {
+  align-self: flex-end;
+  padding-bottom: 12.5rem;
+}
+
+.introducao img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.introducao h1 {
+  margin-bottom: 1rem;
+}
+
+.introducao p {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 50rem) {
+  .introducao-bg {
+    background-color: var(--cor-11);
+    padding-top: 3rem;
+    box-shadow: inset 0 -3.75rem var(--cor-0);
+  }
+  .introducao {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .introducao-conteudo {
+    padding-bottom: 0;
+  }
+  .introducao h1 {
+    margin-bottom: 1rem;
+  }
+  .introducao img {
+    height: 18.75rem;
+    width: 100%;
+  }
+}
