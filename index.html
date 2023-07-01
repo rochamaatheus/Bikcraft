@@ -11,14 +11,12 @@
 
     <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
 
-    <link href="./css/style.css" rel="preload" as="style" />
-    <link href="./css/style.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet preload" as="style" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@500;600&family=Roboto:wght@400;500&display=swap"
-      rel="stylesheet"
     />
   </head>
 
@@ -26,7 +24,12 @@
     <header class="header-bg">
       <div class="header container">
         <a href="./">
-          <img src="./img/bikcraft.svg" alt="Bikcraft" />
+          <img
+            src="./img/bikcraft.svg"
+            alt="Bikcraft"
+            width="136"
+            height="32"
+          />
         </a>
 
         <nav aria-label="navegação">
@@ -65,5 +68,49 @@
         </picture>
       </div>
     </main>
+
+    <article class="bicicletas-lista">
+      <h2 class="font-1-xxl container">
+        escolha a sua<span class="cor-p1">.</span>
+      </h2>
+      <ul>
+        <li>
+          <a href="./bicicletas/magic.html">
+            <img
+              src="./img/bicicletas/magic-home.jpg"
+              width="920"
+              height="1040"
+              alt="Bicicleta preta"
+            />
+            <h3 class="font-1-xl">Magic Might</h3>
+            <span class="font-2-m cor-8">R$ 2499</span>
+          </a>
+        </li>
+        <li>
+          <a href="./bicicletas/magic.html">
+            <img
+              src="./img/bicicletas/nimbus-home.jpg"
+              width="920"
+              height="1040"
+              alt="Bicicleta preta"
+            />
+            <h3 class="font-1-xl">Nimbus Stark</h3>
+            <span class="font-2-m cor-8">R$ 4999</span>
+          </a>
+        </li>
+        <li>
+          <a href="./bicicletas/magic.html">
+            <img
+              src="./img/bicicletas/nebula-home.jpg"
+              width="920"
+              height="1040"
+              alt="Bicicleta preta"
+            />
+            <h3 class="font-1-xl">Nebula Cosmic</h3>
+            <span class="font-2-m cor-8">R$ 3999</span>
+          </a>
+        </li>
+      </ul>
+    </article>
   </body>
 </html>
