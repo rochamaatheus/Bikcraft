@@ -157,6 +157,12 @@ img {
   background: linear-gradient(#ffb60d, #e59317);
 }
 
+@media (max-width: 37.5rem) {
+  .introducao a {
+    padding: 0.75rem 1rem;
+  }
+}
+
 @media (max-width: 75rem) {
   .introducao h1 {
     font-size: 3rem;
