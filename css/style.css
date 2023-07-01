@@ -156,3 +156,35 @@ img {
 .introducao a:hover {
   background: linear-gradient(#ffb60d, #e59317);
 }
+
+@media (max-width: 75rem) {
+  .introducao h1 {
+    font-size: 3rem;
+  }
+  .introducao p {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 50rem) {
+  .introducao-bg {
+    background-color: #111;
+    padding-top: 3rem;
+    box-shadow: inset 0 -3.75rem #fff;
+  }
+  .introducao {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .introducao-conteudo {
+    padding-bottom: 0;
+  }
+  .introducao h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .introducao img {
+    height: 18.75rem;
+    width: 100%;
+  }
+}
