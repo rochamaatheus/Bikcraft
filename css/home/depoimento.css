@@ -42,3 +42,17 @@
 .depoimento p::after {
   content: '”';
 }
+
+@media (max-width: 50rem) {
+  .depoimento {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .depoimento img {
+    max-height: 12.5rem;
+  }
+  .depoimento-conteudo {
+    padding: 2.5rem 1.25rem;
+    margin: auto;
+  }
+}
