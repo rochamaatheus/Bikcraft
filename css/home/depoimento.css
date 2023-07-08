@@ -34,11 +34,11 @@
 }
 
 .depoimento p::before {
-  content: '"';
+  content: '“';
   left: -50px;
   top: -20px;
 }
 
 .depoimento p::after {
-  content: '"';
+  content: '”';
 }
