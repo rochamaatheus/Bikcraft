@@ -34,7 +34,8 @@
   margin-bottom: 1.25rem;
 }
 
-.tecnologia a {
+.tecnologia .link {
+  display: block;
   margin-bottom: 5rem;
 }
 
@@ -51,4 +52,23 @@
 .tecnologia-vantagens img {
   width: 1.5rem;
   margin-bottom: 0.5rem;
+}
+
+@media (max-width: 50rem) {
+  .tecnologia-bg {
+    box-shadow: initial;
+  }
+  .tecnologia {
+    grid-template-columns: 1fr;
+  }
+  .tecnologia-conteudo {
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+  }
+  .tecnologia-imagem {
+    display: none;
+  }
+  .tecnologia .link {
+    margin-bottom: 3.75rem;
+  }
 }
