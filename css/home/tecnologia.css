@@ -20,3 +20,20 @@
   padding-top: 10rem;
   padding-bottom: 10rem;
 }
+
+.tecnologia-conteudo > span {
+  display: block;
+  margin-bottom: 1.25rem;
+}
+
+.tecnologia-conteudo > h2 {
+  margin-bottom: 2rem;
+}
+
+.tecnologia-conteudo > p {
+  margin-bottom: 1.25rem;
+}
+
+.tecnologia a {
+  margin-bottom: 5rem;
+}
