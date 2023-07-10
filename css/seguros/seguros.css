@@ -32,6 +32,10 @@
   text-align: right;
 }
 
+.seguros-item ul {
+  margin-bottom: 2rem;
+}
+
 .seguros-item li {
   display: flex;
   align-items: center;
