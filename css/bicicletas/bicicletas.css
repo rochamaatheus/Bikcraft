@@ -1,0 +1,3 @@
+.bicicletas-bg:nth-child(odd) {
+  background: var(--cor-11);
+}
