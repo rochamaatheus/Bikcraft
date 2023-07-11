@@ -74,3 +74,26 @@
   width: 1.5rem;
   margin-right: 0.5rem;
 }
+
+@media (max-width: 50rem) {
+  .bicicletas {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+}
+
+@media (max-width: 37.5rem) {
+  .bicicletas-conteudo {
+    grid-template-columns: 1fr;
+  }
+  .bicicletas ul {
+    font-size: 1rem;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 2rem;
+  }
+  .bicicletas a {
+    place-self: start;
+  }
+}
