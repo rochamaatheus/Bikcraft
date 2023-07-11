@@ -27,3 +27,50 @@
   padding: 0.5rem 1rem 0.5rem 0.5rem;
   border-radius: 4px 0 0 4px;
 }
+
+.bicicletas-conteudo {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-content: start;
+}
+
+.bicicletas h2,
+.bicicletas p {
+  grid-column: 1/-1;
+}
+
+.bicicletas h2 {
+  margin-bottom: 1.25rem;
+}
+
+.bicicletas h2::before {
+  content: '';
+  display: block;
+  width: 12px;
+  height: 8px;
+  background-color: var(--cor-p1);
+  margin-bottom: 0.5rem;
+}
+
+.bicicletas p {
+  margin-bottom: 2rem;
+}
+
+.bicicletas a {
+  place-self: end;
+}
+
+.bicicletas ul {
+  display: grid;
+  gap: 1rem;
+}
+
+.bicicletas li {
+  display: flex;
+  align-items: center;
+}
+
+.bicicletas-conteudo img {
+  width: 1.5rem;
+  margin-right: 0.5rem;
+}
