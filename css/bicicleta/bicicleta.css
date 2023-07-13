@@ -27,7 +27,7 @@
 }
 
 .bicicleta-conteudo > p {
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 
 .bicicleta-comprar {
@@ -35,8 +35,8 @@
   grid-template-columns: max-content auto;
   align-items: center;
   justify-items: start;
-  gap: 8px 12px;
-  margin-bottom: 40px;
+  gap: 0.5rem 0.75rem;
+  margin-bottom: 2.5rem;
 }
 
 .bicicleta-comprar a {
@@ -47,38 +47,38 @@
   display: flex;
   align-items: center;
   background-color: var(--cor-12);
-  gap: 8px;
-  padding: 4px 8px;
+  gap: 0.5rem;
+  padding: 4px 0.5rem;
   border-radius: 4px;
 }
 
 .bicicleta-conteudo h2 {
   text-transform: uppercase;
   letter-spacing: 0.015em;
-  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
 }
 
 .bicicleta-informacoes,
 .bicicleta-ficha {
-  padding: 32px;
+  padding: 2rem;
   background-color: var(--cor-12);
   border-radius: 4px;
 }
 
 .bicicleta-informacoes {
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 32px;
+  gap: 2rem;
 }
 
 .bicicleta-informacoes img {
-  width: 24px;
-  margin-bottom: 8px;
+  width: 1.25rem;
+  margin-bottom: 0.5rem;
 }
 
 .bicicleta-informacoes h3 {
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
 }
 
 .bicicleta-ficha li {
