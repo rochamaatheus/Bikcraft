@@ -1,0 +1,12 @@
+.bicicleta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  gap: 2.5rem;
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
+}
+
+#bicicleta .titulo p {
+  text-transform: uppercase;
+}
