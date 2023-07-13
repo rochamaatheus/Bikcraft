@@ -95,3 +95,23 @@
 .bicicleta-ficha span {
   color: var(--cor-6);
 }
+
+@media (max-width: 50rem) {
+  .bicicleta {
+    grid-template-columns: 1fr;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .bicicleta-imagens {
+    grid-row: 2;
+  }
+}
+
+@media (max-width: 25rem) {
+  .bicicleta-informacoes {
+    grid-template-columns: 1fr;
+  }
+  .bicicleta-comprar {
+    grid-template-columns: 1fr;
+  }
+}
