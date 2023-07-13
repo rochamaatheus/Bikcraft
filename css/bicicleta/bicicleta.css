@@ -25,3 +25,13 @@
 .bicicleta-imagens img:first-child {
   min-width: 100%;
 }
+
+.bicicleta-conteudo > p {
+  margin-bottom: 32px;
+}
+
+.bicicleta-conteudo h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.015em;
+  margin-bottom: 12px;
+}
