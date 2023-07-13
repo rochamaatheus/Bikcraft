@@ -10,3 +10,18 @@
 #bicicleta .titulo p {
   text-transform: uppercase;
 }
+
+.bicicleta-imagens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+.bicicleta-imagens img {
+  flex: 1;
+  min-width: 12.5rem;
+}
+
+.bicicleta-imagens img:first-child {
+  min-width: 100%;
+}
