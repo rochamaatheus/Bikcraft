@@ -62,6 +62,6 @@
 
 @media (max-width: 37.5rem) {
   .lojas {
-    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 }
