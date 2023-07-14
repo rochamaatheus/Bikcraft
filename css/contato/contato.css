@@ -1,5 +1,5 @@
 #contato {
-  background: linear-gradient(var(--cor-11) 37.5rem, var(--cor-1) 0);
+  background: linear-gradient(var(--cor-11) 37.5rem, var(--cor-1) 0px);
 }
 
 .contato {
@@ -21,7 +21,7 @@
 
 .contato-formulario {
   border-radius: 0 5px 5px 0;
-  background: var(--cor-12) url('../../img/dec/bottom-right.svg') no-repeat
+  background: var(--cor-0) url('../../img/dec/bottom-right.svg') no-repeat
     bottom 1.25rem right 1.25rem;
 }
 
@@ -32,7 +32,7 @@
 .contato-endereco {
   margin-bottom: 2rem;
   padding-left: 1.75rem;
-  background: url('../../img/icones/local.svg') no-repeat 0 2px;
+  background: url('../../img/icones/local.svg') no-repeat 0px 2px;
 }
 
 .contato-endereco p {
@@ -50,12 +50,16 @@
   color: var(--cor-0);
 }
 
+.contato-meios a:first-child {
+  background: url('../../img/icones/email.svg') no-repeat 0px 2px;
+}
+
 .contato-meios a:nth-child(2) {
   margin-bottom: 2rem;
 }
 
 .contato-meios a:nth-child(3) {
-  background: url('../../img/icones/telefone.svg') no-repeat 0 2px;
+  background: url('../../img/icones/telefone.svg') no-repeat 0px 2px;
   margin-bottom: 3.75rem;
 }
 
