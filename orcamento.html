@@ -172,9 +172,22 @@
             <label for="cidade">Cidade</label>
             <input type="text" id="cidade" name="cidade" />
           </div>
-          <div>
+          <div class="select">
             <label for="estado">Estado</label>
-            <input type="text" id="estado" name="estado" />
+            <select name="estado" id="estado">
+              <option value="santa-catarina">Santa Catarina</option>
+              <option value="rio-de-janeiro">Rio de Janeiro</option>
+              <option value="sao-paulo">São Paulo</option>
+            </select>
+          </div>
+          <div class="col-2 termos-condicoes">
+            <label>
+              <input type="checkbox" name="termos" id="termos" required />
+              Li e aceito os
+              <a href="./termos.html" rel="external" target="_blank"
+                >termos e condições</a
+              >
+            </label>
           </div>
           <button class="botao col-2">Solicitar Orçamento</button>
         </div>
