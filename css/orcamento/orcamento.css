@@ -125,3 +125,27 @@
   display: grid;
   gap: 1.25rem;
 }
+
+.orcamento-detalhes {
+  display: none;
+  background: var(--cor-0);
+  padding: 1.25rem;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 4px;
+  align-items: center;
+}
+
+.orcamento-detalhes li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.orcamento-detalhes li img {
+  width: 1rem;
+  margin-right: 0.5rem;
+}
+
+.orcamento-produto input:checked + label + .orcamento-detalhes {
+  display: grid;
+}
