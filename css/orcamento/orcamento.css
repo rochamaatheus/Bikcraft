@@ -149,3 +149,28 @@
 .orcamento-produto input:checked + label + .orcamento-detalhes {
   display: grid;
 }
+
+@media (max-width: 75rem) {
+  .orcamento-dados,
+  .orcamento-produto {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 50rem) {
+  .orcamento {
+    grid-template-columns: 1fr;
+  }
+  .orcamento-produtos {
+    border-radius: 5px 5px 0 0;
+  }
+  .orcamento-dados {
+    border-radius: 0 0 5px 5px;
+  }
+}
+
+@media (max-width: 25rem) {
+  .orcamento-produto {
+    grid-template-columns: 1fr;
+  }
+}
