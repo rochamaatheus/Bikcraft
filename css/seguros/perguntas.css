@@ -50,6 +50,14 @@
 }
 
 .perguntas dd {
+  display: none;
+}
+
+.perguntas dd.active {
+  display: block;
+}
+
+.perguntas dd {
   padding-left: 1.25rem;
   padding-top: 1rem;
   max-width: 80ch;
