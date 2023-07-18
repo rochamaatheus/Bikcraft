@@ -29,3 +29,25 @@ function ativarItens() {
   params.forEach(ativarProduto);
 }
 ativarItens();
+
+// Perguntas Frequentes
+function ativarAccordion() {
+  const perguntas = document.querySelectorAll('.perguntas button');
+
+  function accordion({ currentTarget }) {
+    const pergunta = currentTarget;
+    const controls = pergunta.getAttribute('aria-controls');
+    const resposta = document.getElementById(controls);
+
+    resposta.classList.contains('active');
+    pergunta.setAttribute('aria-expanded', resposta);
+    resposta.classList.toggle('active');
+  }
+
+  function eventoPergunta(pergunta) {
+    pergunta.addEventListener('click', accordion);
+  }
+
+  perguntas.forEach(eventoPergunta);
+}
+ativarAccordion();
