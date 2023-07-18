@@ -46,7 +46,7 @@
 }
 
 .perguntas button:hover::after,
-.perguntas button[aria-expanded='true'] {
+.perguntas button[aria-expanded='true']::after {
   transform: rotate(180deg);
 }
 
