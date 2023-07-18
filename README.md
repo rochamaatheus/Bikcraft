@@ -2,6 +2,8 @@
 
 ![Capa_Site](https://imgur.com/4T5KP7z.png)
 
+Acesse o [site](https://rochamaatheus.github.io/Bikcraft/)
+
 Este site é um projeto desenvolvido com HTML e CSS. Apenas alguns comandos básicos em JavaScript.
 É um site voltado para bicicletas, com o intuito de oferecer aos clientes bicicletas de alta tecnologia, design e qualidade. 
 
