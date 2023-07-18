@@ -51,3 +51,23 @@ function ativarAccordion() {
   perguntas.forEach(eventoPergunta);
 }
 ativarAccordion();
+
+//Galeria de Bicicletas
+function ativarGaleria() {
+  const galeria = document.querySelectorAll('.bicicleta-imagens img');
+  const galeriaContainer = document.querySelector('.bicicleta-imagens');
+
+  if (galeria.length === 0 && galeriaContainer === null) return;
+
+  function trocarImagem({ currentTarget }) {
+    img = currentTarget;
+    const { matches } = matchMedia('(max-width: 57.5rem)');
+    if (!matches) galeriaContainer.prepend(img);
+  }
+  function eventoGaleria(img) {
+    img.addEventListener('click', trocarImagem);
+  }
+
+  galeria.forEach(eventoGaleria);
+}
+ativarGaleria();
